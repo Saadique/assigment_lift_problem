@@ -1,0 +1,69 @@
+2020-05-14 06:27:36.962  INFO 21056 --- [  restartedMain] com.SmartKent.lift.LiftApplication       : Starting LiftApplication on SAADIQUE with PID 21056 (C:\Users\Asus\Desktop\lift\target\classes started by Asus in C:\Users\Asus\Desktop\lift)
+2020-05-14 06:27:36.967  INFO 21056 --- [  restartedMain] com.SmartKent.lift.LiftApplication       : No active profile set, falling back to default profiles: default
+2020-05-14 06:27:37.073  INFO 21056 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-14 06:27:37.073  INFO 21056 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-14 06:27:38.580  INFO 21056 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-14 06:27:38.583  INFO 21056 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-05-14 06:27:38.654  INFO 21056 --- [  restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.SmartKent.lift.repository.LiftRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2020-05-14 06:27:38.655  INFO 21056 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 0 JDBC repository interfaces.
+2020-05-14 06:27:38.671  INFO 21056 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-14 06:27:38.673  INFO 21056 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-05-14 06:27:38.721  INFO 21056 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 1 JPA repository interfaces.
+2020-05-14 06:27:39.550  INFO 21056 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$4926b564] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-14 06:27:39.629  INFO 21056 --- [  restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-05-14 06:27:40.740  INFO 21056 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-14 06:27:40.757  INFO 21056 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-14 06:27:40.758  INFO 21056 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-05-14 06:27:40.962  INFO 21056 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-14 06:27:40.963  INFO 21056 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3890 ms
+2020-05-14 06:27:41.078  INFO 21056 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-14 06:27:41.389  INFO 21056 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-14 06:27:41.396  INFO 21056 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/lift?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC'
+2020-05-14 06:27:41.837  INFO 21056 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-14 06:27:41.958  INFO 21056 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.14.Final
+2020-05-14 06:27:42.190  INFO 21056 --- [  restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-14 06:27:42.423  INFO 21056 --- [  restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-05-14 06:27:43.405  INFO 21056 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-14 06:27:43.424  INFO 21056 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-14 06:27:43.790  INFO 21056 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-14 06:27:44.683  INFO 21056 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2020-05-14 06:27:44.694  INFO 21056 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'executor'
+2020-05-14 06:27:44.806  WARN 21056 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-14 06:27:46.173  INFO 21056 --- [  restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-05-14 06:27:46.252  INFO 21056 --- [  restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-05-14 06:27:46.265  INFO 21056 --- [  restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-05-14 06:27:46.311  INFO 21056 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-14 06:27:46.314  INFO 21056 --- [  restartedMain] com.SmartKent.lift.LiftApplication       : Started LiftApplication in 9.934 seconds (JVM running for 11.002)
+2020-05-14 06:28:30.967  INFO 21056 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-14 06:28:30.968  INFO 21056 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-14 06:28:31.016  INFO 21056 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 48 ms
+The lift would be in 12 seconds to the requester in floor 5
+Lift{liftId=1, state='TO_PICKUP', direction='UP', person='0', floor=1}
+Lift{liftId=1, state='PICKUP', direction='NAN', person='1', floor=5}
+Lift{liftId=1, state='TO_DROPOFF', direction='UP', person='1', floor=5}
+Lift{liftId=1, state='DROPOFF', direction='NAN', person='0', floor=9}
+Lift{liftId=1, state='IDLE', direction='NAN', person='0', floor=9}
+The lift would be in 21 seconds to the requester in floor 2
+Lift{liftId=1, state='TO_PICKUP', direction='DOWN', person='0', floor=9}
+Lift{liftId=1, state='PICKUP', direction='NAN', person='1', floor=2}
+Lift{liftId=1, state='TO_DROPOFF', direction='UP', person='1', floor=2}
+Lift{liftId=1, state='DROPOFF', direction='NAN', person='0', floor=7}
+Lift{liftId=1, state='IDLE', direction='NAN', person='0', floor=7}
+The lift would be in 9 seconds to the requester in floor 10
+Lift{liftId=1, state='TO_PICKUP', direction='UP', person='0', floor=7}
+Lift{liftId=1, state='PICKUP', direction='NAN', person='1', floor=10}
+Lift{liftId=1, state='TO_DROPOFF', direction='DOWN', person='1', floor=10}
+Lift{liftId=1, state='DROPOFF', direction='NAN', person='0', floor=1}
+Lift{liftId=1, state='IDLE', direction='NAN', person='0', floor=1}
+The lift would be in 24 seconds to the requester in floor 9
+Lift{liftId=1, state='TO_PICKUP', direction='UP', person='0', floor=1}
+Lift{liftId=1, state='PICKUP', direction='NAN', person='1', floor=9}
+Lift{liftId=1, state='TO_DROPOFF', direction='DOWN', person='1', floor=9}
+Lift{liftId=1, state='DROPOFF', direction='NAN', person='0', floor=8}
+Lift{liftId=1, state='IDLE', direction='NAN', person='0', floor=8}
+The lift would be in 12 seconds to the requester in floor 4
+Lift{liftId=1, state='TO_PICKUP', direction='DOWN', person='0', floor=8}
+Lift{liftId=1, state='PICKUP', direction='NAN', person='1', floor=4}
+Lift{liftId=1, state='TO_DROPOFF', direction='UP', person='1', floor=4}
+Lift{liftId=1, state='DROPOFF', direction='NAN', person='0', floor=10}
+Lift{liftId=1, state='IDLE', direction='NAN', person='0', floor=10}
